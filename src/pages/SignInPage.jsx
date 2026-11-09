@@ -87,7 +87,7 @@ export default function SignInPage() {
         initial={{ clipPath: "inset(100% 0% 0% 0%)" }}
         animate={{ clipPath: "inset(0% 0% 0% 0%)" }}
         transition={{ duration: 1.2, ease }}
-        className="relative hidden overflow-hidden rounded-t-full rounded-b-3xl bg-blush md:block"
+        className="relative hidden aspect-[4/5] overflow-hidden rounded-tl-[50%_40%] rounded-tr-[50%_40%] rounded-b-3xl bg-blush md:block md:self-start"
       >
         <img
           src={florist}

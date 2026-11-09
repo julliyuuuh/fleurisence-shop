@@ -63,7 +63,7 @@ export default function AboutPage() {
           initial={{ clipPath: "inset(100% 0% 0% 0%)" }}
           animate={{ clipPath: "inset(0% 0% 0% 0%)" }}
           transition={{ duration: 1.3, delay: 0.15, ease }}
-          className="aspect-[4/5] overflow-hidden rounded-t-full rounded-b-3xl bg-blush"
+          className="aspect-[4/5] overflow-hidden rounded-tl-[50%_40%] rounded-tr-[50%_40%] rounded-b-3xl bg-blush"
         >
           <img
             src={wrapping}

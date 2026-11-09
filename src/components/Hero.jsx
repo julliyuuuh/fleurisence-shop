@@ -114,7 +114,7 @@ export default function Hero() {
           initial={{ clipPath: "inset(100% 0% 0% 0%)" }}
           animate={{ clipPath: "inset(0% 0% 0% 0%)" }}
           transition={{ duration: 1.4, delay: 0.2, ease }}
-          className="aspect-[4/5] overflow-hidden rounded-t-full rounded-b-3xl bg-blush"
+          className="aspect-[4/5] overflow-hidden rounded-tl-[50%_40%] rounded-tr-[50%_40%] rounded-b-3xl bg-blush"
         >
           <motion.img
             src={pinkRomance}

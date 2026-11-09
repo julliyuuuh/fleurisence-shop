@@ -101,7 +101,7 @@ function ProductView({ product, onAdd, onOpenCart }) {
           initial={{ clipPath: "inset(100% 0% 0% 0%)" }}
           animate={{ clipPath: "inset(0% 0% 0% 0%)" }}
           transition={{ duration: 1.1, ease }}
-          className="aspect-[4/5] overflow-hidden rounded-t-full rounded-b-3xl bg-blush md:sticky md:top-24 md:self-start"
+          className="aspect-[4/5] overflow-hidden rounded-tl-[50%_40%] rounded-tr-[50%_40%] rounded-b-3xl bg-blush md:sticky md:top-24 md:self-start"
         >
           <motion.img
             src={product.image}
