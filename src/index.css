@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #fbf7f2; /* page background */
+  --color-paper: #ffffff; /* cards */
+  --color-forest: #1f3a2e; /* main text + buttons */
+  --color-forest-soft: #4b6357; /* secondary text */
+  --color-blush: #f3d3cf; /* soft accent backgrounds */
+  --color-rose: #c2525b; /* small highlights */
+  --color-line: #e9e1d8; /* borders */
+
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "DM Sans", system-ui, sans-serif;
+
+  --ease-calm: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+html {
+  scroll-padding-top: 5rem; /* so #links don't hide under the sticky header */
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-forest);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* One consistent keyboard focus ring for links and buttons */
+a:focus-visible,
+button:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--color-forest);
+  outline-offset: 3px;
+}
